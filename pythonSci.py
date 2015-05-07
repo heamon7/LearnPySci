@@ -1,9 +1,9 @@
 import wave 
 import pylab as pl
 import numpy as np
-import os
 
-file = wave.open(r"/Users/heamon7/Project/Python/learnPySci/ding.wav","rb")
+
+file = wave.open(r"/Users/heamon7/Project/Python/learnPySci/src/ding.wav","rb")
 
 # read the format
 # (nchannels,sampwidth,framerate,nframes,comptype,compname)
